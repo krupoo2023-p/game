@@ -1,0 +1,29 @@
+{
+  "game": "AR Detective : คดีลับจับใจความ",
+  "cases": 8,
+  "stagesPerCase": 6,
+  "totalStages": 48,
+  "totalQuestions": 240,
+  "uniqueQuestionTexts": 240,
+  "uniqueStagePassages": 48,
+  "characters": 6,
+  "helpers": 4,
+  "rewardTiers": 3,
+  "pngAssets": 13,
+  "transparentAlphaVerified": true,
+  "checks": [
+    "all-stage progress",
+    "answer shuffle mapping",
+    "teacher local persistence",
+    "standalone export across fresh devices",
+    "duplicate rejection across different passages",
+    "character selection persistence and unlock gates",
+    "helper effects and once-per-stage limits",
+    "reward tiers and duplicate claim prevention",
+    "12 online service tests"
+  ],
+  "notYetVerified": [
+    "Live customer Netlify deployment and Identity invitations/login",
+    "Browser visual and click verification"
+  ]
+}
